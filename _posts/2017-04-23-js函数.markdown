@@ -1,0 +1,22 @@
+---
+layout:     post
+title:      "js函数"
+subtitle:   " \"高程3之js基本概念\""
+date:       2017-04-23 11:00:00
+author:     "wwwboat"
+header-img: ""
+catalog: true
+tags:
+    - 高程
+---
+
+
+# 函数
+
+### return
+函数会在执行完return语句之后停止并立即退出，位于return之后的任何代码都永远不会执行。<br/>
+
+### 参数arguments
+ES中，函数可以传递任意数量的参数，参数的数据类型也随意。<br/>
+arguments对象与数组类似（并不是array的实例）。<br/>
+可以使用命名的参数，也可使用arguments[i]。
