@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "jsArray用型"
+title:      "jsArray类型"
 subtitle:   " \"高程3之js引用类型\""
 date:       2017-04-25 10:30:00
 author:     "wwwboat"
@@ -76,6 +76,7 @@ var value=[0,1,5,10,15];
 value.sort(compare);
 alert(value);  //0,1,5,10,15
 ```
+
 #### 操作方法
 - concat（）
   concat（）方法可以基于当前数组中的所有项创建一个新数组。这个方法会先创建当前数组的一个副本，然后将接收到的参数添加到这个副本的末尾，最后返回新构建的数组。
@@ -130,27 +131,21 @@ alert(value);  //0,1,5,10,15
     return (item>2);
     }
     alert(result);  //true
-  ```
-  
-  ```
+ 
   var num=[1,2,4,5,3,4,3,2,1];
   var result=num.filter(function(item,index,array){
     return (item>2);
     }
     alert(result);  //[3,4,5,4,3]
-  ```
   
-  ```
     var num=[1,2,4,5,3,4,3,2,1];
   var result=num.map(function(item,index,array){
     return item*2;
     }
     alert(result);  //[2,4,8,10,6,8,6,4,2]
-  ```
   
-  ```
     var num=[1,2,4,5,3,4,3,2,1];
-  var result=num.forEach(function(item,index,array){
+    var result=num.forEach(function(item,index,array){
     执行某些操作
     }
     alert(result);  //false
