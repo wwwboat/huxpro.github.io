@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "jsArray类型"
+title:      jsArray类型
 subtitle:   " \"高程3之js引用类型\""
 date:       2017-04-25 10:30:00
 author:     "wwwboat"
