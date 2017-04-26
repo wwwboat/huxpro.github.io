@@ -1,0 +1,27 @@
+---
+layout:     post
+title:      js正则RegExp类型
+subtitle:   " \"高程3之js引用类型\""
+date:       2017-04-26 09:45:00
+author:     "wwwboat"
+header-img: ""
+catalog: true
+tags:
+    - 高程
+---
+# RegExp类型
+正则表达式：var expression=/pattren/flags;<br/>
+ 其中的pattren（模式）部分可以是任何简单或复杂的正则表达式，可以包含字符类、限定符、分组、向前查找以及反向引用？<br/>
+ 其中flags用以标明正则表达式的行为。flags的值：<br/>
+ - g：表示全局模式，即模式将被应用于所有字符串，而非在发现第一个匹配项时立即停止。
+ - i：表示不区分大小写的模式。
+ - m：表示多行模式。
+ 
+ ES5规定：使用正则表达式字面量必须像直接调用RegExp构造函数一样，每次都创建新的RegExp实例。？
+ 
+ ####RegExp实例方法
+ 
+ - test（）
+   test（）方法接受一个字符串参数，在模式与该参数匹配的情况下返回true，否则返回false。
+   
+ 
