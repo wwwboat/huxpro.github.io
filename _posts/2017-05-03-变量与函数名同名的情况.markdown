@@ -1,0 +1,21 @@
+---
+layout:     post
+title:      变量与函数同名
+subtitle:   " \"变量与函数同名\""
+date:       2017-05-93 10:31:00
+author:     "wwwboat"
+header-img: ""
+catalog: true
+tags:
+    - js笔记
+---
+# 变量与函数同名的情况
+```
+console.log(a);   //function a(){};
+var a=3;			
+function a(){};
+console.log(a);   //3
+			a();        //报错
+```
+同一个标识符的情况下，变量声明与函数声明都会提升；函数声明会覆盖变量声明，但不会覆盖变量赋值，即：如果声明变量的同时初始化或赋值那么变量优先级高于函数。
+				
