@@ -1,7 +1,7 @@
 ---
-layout:     post
-title:      变量与函数同名
-subtitle:   " \"变量与函数同名\""
+layout:     po变量st
+title:      sessionStorage 、localStorage 和 cookie 之间的区别
+subtitle:   " \"sessionStorage 、localStorage 和 cookie 之间的区别\""
 date:       2017-05-03 17:31:00
 author:     "wwwboat"
 header-img: ""
